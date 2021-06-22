@@ -1,0 +1,50 @@
+main{
+    background-color: #1C1C1C;
+    padding: 45px 10px;
+    position: relative;
+
+    section{
+      display: flex;
+      flex-wrap: wrap;
+      .etichetta{
+        position: absolute;
+        top: - 25px;
+        left: 10%;
+        h2{
+            color: white;
+            text-transform: uppercase;
+            padding: 8px 25px;
+            background-color: #0C7CEC;
+          }
+      }
+      .box{
+        padding: 10px;
+        margin-bottom: 20px;
+        flex-basis: calc(100% / 6);
+        h4{
+          color: white;
+          text-transform: uppercase;
+          font-size: 15px;
+          font-weight: 400;
+        }
+        .box-img{
+            height: 200px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+      }
+      button{
+        color: white;
+        text-transform: uppercase;
+        margin: 0 auto 20px;
+        padding: 10px 50px;
+        font-weight: 400;
+        background-color:  #0C7CEC;
+        border: none;
+        cursor: pointer;
+        &:hover{
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
